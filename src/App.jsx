@@ -1,4 +1,8 @@
-import { Form } from "./components/Form";
+import React from "react";
+import Navigation from "./Navigation/Navigation";
+import Products from "./Products/Products";
+import Recommended from "./Recommended/Recommended";
+import Sidebar from "./Sidebar/Sidebar";
 
 
 
@@ -7,14 +11,11 @@ import { Form } from "./components/Form";
 const App = () => {
   return (
     <>
-      {/* <div>
-      <div className="accordion">
-        {accordionData.map(({ title, content }) => (
-          <Accordions title={title} content={content} />
-        ))}
-      </div>
-    </div> */}
-    <Form />
+
+    <Navigation />
+    <Products />
+    <Recommended />
+    <Sidebar />
     </>
 
   );
