@@ -1,4 +1,5 @@
-import { Meals } from "./components/Meals";
+import { Calculator } from "./components/Calculator";
+
 
 
 
@@ -6,8 +7,7 @@ import { Meals } from "./components/Meals";
 function App () {
   return (
     <>
-      <Meals />
-      
+      <Calculator />
     </>
   )
 }
