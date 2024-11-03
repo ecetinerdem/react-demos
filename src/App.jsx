@@ -1,4 +1,4 @@
-import { HiddenSearch } from "./components/HiddenSearch";
+import { Testimonials } from "./components/Testimonials";
 
 
 
@@ -8,7 +8,7 @@ import { HiddenSearch } from "./components/HiddenSearch";
 function App () {
   return (
     <>
-      <HiddenSearch />
+      <Testimonials />
     </>
   )
 }
