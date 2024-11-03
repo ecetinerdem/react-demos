@@ -1,5 +1,5 @@
+import { HiddenSearch } from "./components/HiddenSearch";
 
-import { ToggleBackground } from "./components/ToggleBackground";
 
 
 
@@ -8,7 +8,7 @@ import { ToggleBackground } from "./components/ToggleBackground";
 function App () {
   return (
     <>
-      <ToggleBackground />
+      <HiddenSearch />
     </>
   )
 }
