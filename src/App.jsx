@@ -1,4 +1,5 @@
-import { Calculator } from "./components/Calculator";
+
+import { ToggleBackground } from "./components/ToggleBackground";
 
 
 
@@ -7,7 +8,7 @@ import { Calculator } from "./components/Calculator";
 function App () {
   return (
     <>
-      <Calculator />
+      <ToggleBackground />
     </>
   )
 }
