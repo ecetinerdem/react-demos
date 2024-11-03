@@ -1,11 +1,13 @@
-import Counter from "./components/Counter";
+import { Meals } from "./components/Meals";
+
 
 
 
 function App () {
   return (
     <>
-      <Counter />
+      <Meals />
+      
     </>
   )
 }
