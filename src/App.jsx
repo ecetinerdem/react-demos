@@ -11,11 +11,10 @@ import Sidebar from "./Sidebar/Sidebar";
 const App = () => {
   return (
     <>
-
-    <Navigation />
-    <Products />
-    <Recommended />
     <Sidebar />
+    <Navigation />
+    <Recommended />
+    <Products />
     </>
 
   );
