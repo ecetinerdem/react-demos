@@ -2,7 +2,10 @@ import React from 'react'
 
 function Input() {
   return (
-    <div>Input</div>
+    <label className='sidebar-label-container'>
+      <input type="radio" value="" name="test2" />
+      <span className="chekmark"></span>All
+  </label>
   )
 }
 
