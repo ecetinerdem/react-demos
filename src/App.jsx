@@ -5,6 +5,7 @@ import Recommended from "./Recommended/Recommended";
 import Sidebar from "./Sidebar/Sidebar";
 import products from "./db/data";
 import "./index.css";
+import Card from "./components/Card";
 
 
 

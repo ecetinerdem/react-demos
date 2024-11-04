@@ -1,3 +1,5 @@
+import Input from "../../components/Input";
+
 const Price = ({ handleChange }) => {
   return (
     <>
