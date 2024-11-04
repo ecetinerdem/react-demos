@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Input() {
+function Input({handleChange, value, title, name, color}) {
   return (
     <label className='sidebar-label-container'>
       <input type="radio" value="" name="test2" />
